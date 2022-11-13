@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios/videos</title>
+</head>
+<body>
+    <h1>Reproduzindo audios</h1>
+    <center><p><audio src="mida/It Was a Time - TrackTribe.mp3" controls autoplay></audio></p></center>
+    <!--Aquivos compatíveis WAV mp3 OGG-->
+    <center>
+        <h2>Outra maneira</h2>
+        <audio preload="metadata"  controls loop>
+            <source src="mida/It Was a Time - TrackTribe.mp3" type="audio/mpeg">
+        </audio>
+        <p>Para voce colocar audio, basta usar a tag; audio e colocar o controls dentro da tag</p>
+    </center>
+    <h1>Como colocar vídeos</h1>
+    <center>
+        <!-- tipos de videos aceitáveis mp4 OGV e webm
+        dá para utilizar o handBreak para diminuir o tamnho do vídeo e o tipo do arquivo-->
+
+        <p>para adicionar vídeo é só add a tag video e dentro da tag colocar controls para mostrar os controles <br>
+        caso o vídeo fique muito grande na tela, usa width = "500" por exemplo <br>
+            é interessante saber que tem como colocar varios tipos de videos e pedir para o html ir testando <br>
+        para evitar de uma navegador não ser compativel com o tipo do video </p>
+        <p>Para usar uma capa no vídeo, usar a tag poster dentro da tag video</p>
+
+        <video src="mida/Universo - 13100.mp4" controls width="560" height="315"
+        title="Vídeo de bolhas" poster="mida/images.jpg" loop></video>
+        <p>Videos de hospedagem local é caro, existe uma forma melhor</p>
+     </center>
+     <h1>Incorporação de videos externos</h1>
+     <center>
+     <p> É só ir no youtube apertar em compartilhar e depois em incorporar, contrl+c e control+v</p>
+     <iframe
+        width="560" height="315" src="https://www.youtube.com/embed/QNYT9wVwQ8A" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    </center>
+</body>
+</html>

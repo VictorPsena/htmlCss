@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nuemroDeLetras</title>
+    <style>
+        body{
+            background-color: aqua;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('What is your name')
+         window.alert(`Seu nome tem ${nome.length} letras`)
+         //ou
+         document.writeln(`Seu nome tem ${nome.length} letras<br/>`)
+         document.writeln(`Seu nome em maiúsculo é <strong>${nome.toUpperCase()}<strong/> <br/>`)
+
+         document.write(`seu nome em minúsculo é, ${nome.toLowerCase()}`)
+
+         
+       // Uma coisa interessante 
+       // se n1 = 1434.34 quero definir as casas decimais 
+       // então uso n1.toFixed(3) aparece 1434.340
+       // caso eu queira mudar . por , uso 
+       // n1.toFixed(4).replace('.', ',')
+       //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) mostra R$ 1,434.50
+    </script>
+</body>
+</html>

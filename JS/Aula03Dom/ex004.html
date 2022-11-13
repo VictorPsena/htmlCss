@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeirosPassosComDom</title>
+    <style>
+        body{
+            background-color: rgb(18, 109, 154);
+            color: rgb(0, 0, 0);
+            font: normal 15pt Arial 
+        }
+    </style>
+</head>
+<body>
+    <h1>
+       DOM
+    </h1>
+    <hr>
+    <p>
+    Aqui aprendemos <strong>Dom</strong>.
+    </p>
+    <div id='msg'>
+        clique em mim
+    </div>
+    <p id="css">COmo FUnciona</p>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write('está escrito assim:' + p1.innerHTML)
+        /*temos p1.inennerText, HTML, ect. vai testando.*/
+        //--------------------------------------------------------------------------
+        var d = window.document.getElementById('msg')
+        d.style.background = 'red'
+        d.innerText = 'eae'
+       //---------------------------------------------------------------------------
+        var a = window.document.querySelector('p#css')
+        a.style.background = 'blue'
+    // nessa aula aprendendos que existem varios meios de selecionar objetos com o getElement(s)By...
+    </script>
+</body>
+</html>

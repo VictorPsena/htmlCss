@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');  
+/* id = identidade em css é # 
+class em css é .*/
+/* é possível ter classes com o mesmo nome no html mas id só pode com
+nomes diferentes  */
+
+/* importando uma fonte do google fonts, coloquei no h1 */
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+    /* heigth: 100%; */
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 9px 9px 20px rgba(0, 0, 0, 0.603); /*sobra da box : lado baixo shading cor */
+    width: 700px;
+    padding: 14px;
+    margin: auto; /*conteudo sempre fica no meio da tela */
+}
+body{
+    background-image: linear-gradient(90deg,#042940, #005C53);
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #042940;
+    /* text-align: center;
+    text-shadow: 1px 1px 10px #04294098;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;  */
+    /* tem como fazer assim font: italic bolder 2em Impact */
+}
+
+h1#principal{
+    font-family: 'Pacifico', cursive;
+    color: #042940;
+    text-align: center;
+    text-shadow: 1px 1px 10px #04294098;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    background-color: #0554859f;
+}
+
+
+h2{
+    color: #005C53;
+    font: italic bolder 2em 'Arial Narrow Bold'
+}
+
+
+.secundario{
+    color: #00312c;
+    font: bolder 2em Impact
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    
+}
