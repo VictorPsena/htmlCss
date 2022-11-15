@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    font-size: xx-large;
+}
+
+
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: -10px;
+    border-radius: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
