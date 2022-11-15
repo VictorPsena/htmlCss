@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização veertical de caixas</title>
+
+    <style>
+        section#Container{
+            position: relative; /*quem está de fora fica com posicionamento realtivo*/
+            height: 95vh;
+            background-color: blueviolet;
+            padding: 10px;
+            background-image: url(imgs/target001.png);
+            background-size: 100% 100%;
+        }
+        #conteudo{
+            background-image: url(imgs/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*quem está dentro fica com posicionamento absoluto*/
+            height: 200px;
+            background-color: aqua;
+            width: 400px;
+            margin: auto;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /*Transladei o ponto ancora do meu quadro azul*/
+        }
+
+    </style>
+</head>
+<body>
+    <section id="Container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
