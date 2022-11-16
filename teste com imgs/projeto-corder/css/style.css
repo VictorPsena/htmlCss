@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+   
+}
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: -10px;
+    border-radius: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header > h1{
+    font-size: 8vw; /*wilport widht*/
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 10px ;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* main{
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+} */
+
+
+div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5vw;
+}
+
+
+
+.normal{
+    background-color: white;
+    color: black;
+    
+}
+
+.normal > p{
+    padding-bottom: 3em;
+}
+
+.imagem{
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
+    background-attachment: fixed; /*fixa a img no fundo e faz o efeito paralax*/
+
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.205);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+div#img01{
+    background-image: url(../imgs/blackbird-g54927a6cc_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+div#img02{
+    background-image: url(../imgs/teacup-g8d20bb234_1920.jpg);
+    background-size: cover
+}
+
+
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
